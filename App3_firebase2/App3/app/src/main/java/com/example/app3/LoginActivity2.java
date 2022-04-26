@@ -3,6 +3,7 @@ package com.example.app3;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaCodec;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -73,6 +74,8 @@ public class LoginActivity2 extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     Toast.makeText(LoginActivity2.this, "You are logged in now", Toast.LENGTH_SHORT).show();
+                    Intent test = new Intent(LoginActivity2.this, LandingPage.class);
+                    startActivity(test);
                 }else{
                     Toast.makeText(LoginActivity2.this, "Something went wrong", Toast.LENGTH_SHORT).show();
                 }
