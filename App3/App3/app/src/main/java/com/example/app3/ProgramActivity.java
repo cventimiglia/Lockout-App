@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -103,6 +104,9 @@ public class ProgramActivity extends AppCompatActivity {
                     case R.id.nav_logout:
                         Log.i("Menu_Drawer_Tag", "Logout item is clicked");
                         drawerLayout.closeDrawer(GravityCompat.START);
+                        Intent intent8 = new Intent(ProgramActivity.this, Home.class);
+                        startActivity(intent8);
+                        Toast.makeText(ProgramActivity.this, "You have been logged out", Toast.LENGTH_SHORT).show();
                         break;
                     default:
                         return ProgramActivity.super.onOptionsItemSelected(item);
