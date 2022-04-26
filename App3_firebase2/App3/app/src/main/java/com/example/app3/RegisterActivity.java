@@ -190,8 +190,9 @@ public class RegisterActivity extends AppCompatActivity {
                                 //send verification email
                                 firebaseUser.sendEmailVerification();
 
-                                Toast.makeText(RegisterActivity.this, "User Registered successfully. Please verify your email", Toast.LENGTH_LONG).show();
-
+                                Toast.makeText(RegisterActivity.this," You have registered successfully, " + textFullName + ". Please verify your email", Toast.LENGTH_LONG).show();
+                                Intent intent = new Intent(RegisterActivity.this, LoginActivity2.class);
+                                startActivity(intent);
                                 /*/open user profile after successful registration
                                 Intent intent = new Intent(RegisterActivity.this,UserProfileActivity.class);
                                 //to prevent user from returning back to register activity on pressing back button after registration
