@@ -3,10 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MWats/Lockout-App/Lockout-App/App3_firebase2/App3/app/src/main/res/layout/landing_page.xml" value="0.152" />
+        <entry key="..\:/Users/MWats/Lockout-App/Lockout-App/App3_firebase2/App3/app/src/main/res/layout/location.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/camve/AndroidStudioProjects/App3_firebase2/App3/app/src/main/res/layout/location.xml" value="0.25" />
-        <entry key="..\:/Users/camve/Lockout-App/App3_firebase2/App3/app/src/main/res/layout/activity_login2.xml" value="0.264" />
-        <entry key="..\:/Users/camve/Lockout-App/App3_firebase2/App3/app/src/main/res/layout/activity_register.xml" value="0.25" />
-        <entry key="..\:/Users/camve/Lockout-App/App3_firebase2/App3/app/src/main/res/layout/landing_page.xml" value="0.25" />
       </map>
     </option>
   </component>

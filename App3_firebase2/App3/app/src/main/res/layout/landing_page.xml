@@ -16,12 +16,12 @@
 
     <TextView
         android:id="@+id/greeting"
-        android:layout_width="128dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="136dp"
-        android:text="Hello"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="68dp"
+        android:text="Hello, Welome to the Lockout App"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
