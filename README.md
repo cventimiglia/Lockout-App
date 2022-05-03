@@ -6,3 +6,6 @@ The purpose of this app is to give the user a more secure app. The app requires 
 2. Open up the IDE and open the project.
 3. Set up a emulator or use a pysical device
 4. Run the app
+5. The Password to the app starts at the top left to top right. Then down one and the left one.
+6. Once the app is open, click on the left side of the screen and drag right.
+7. If on a physical device, click and hold, then drag right when the menu appears.
